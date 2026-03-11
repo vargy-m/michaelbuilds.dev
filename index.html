@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Vargason — Software Engineer</title>
+   <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet" />
+    
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="ring"></div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-logo">Michael Builds</div>
+    <ul class="nav-links">
+      <li><a href="https://github.com/vargy-m"><i class="fa-brands fa-github"></i> GitHub</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="grid-bg"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Left -->
+    <div class="hero-left">
+      <div class="hero-tag">Full-Stack Developer</div>
+
+      <h1 class="hero-name">
+        Michael<br>
+        <span>Vargason</span>
+      </h1>
+
+      <p class="hero-role">
+        Building <strong>web applications</strong> from the ground up —
+        clean interfaces, solid logic, real products.
+        Non-traditional path. Zero shortcuts.
+      </p>
+
+      <div class="tech-tags">
+        <span class="tag active">JavaScript</span>
+        <span class="tag active">React</span>
+        <span class="tag active">Node.js</span>
+        <span class="tag active">HTML &amp; CSS</span>
+        <span class="tag active">SQL</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="https://github.com/vargy-m" class="btn-primary">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn-ghost">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Get in Touch
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: code window -->
+    <div class="hero-right">
+      <div class="code-window">
+        <div class="window-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <div class="window-title">michael.js</div>
+        </div>
+        <div class="code-body">
+<span class="cm">// San Diego, CA</span><br>
+<span class="ln">1 </span><span class="kw">const</span> <span class="acc">developer</span> = {<br>
+<span class="ln">2 </span>  name: <span class="str">"Michael Vargason"</span>,<br>
+<span class="ln">3 </span>  role: <span class="str">"Full-Stack Engineer"</span>,<br>
+<span class="ln">4 </span>  stack: [<br>
+<span class="ln">5 </span>    <span class="str">"React"</span>, <span class="str">"Node.js"</span>,<br>
+<span class="ln">6 </span>    <span class="str">"JavaScript"</span>, <span class="str">"SQL"</span>,<br>
+<span class="ln">7 </span>  ],<br>
+<span class="ln">8 </span>  building: <span class="str">"<span class="acc2">Nimbus Weather</span>"</span>,<br>
+<span class="ln">9 </span>  openToWork: <span class="acc">true</span>,<br>
+<span class="ln">10</span>};<br>
+<br>
+<span class="ln">11</span><span class="kw">function</span> <span class="fn">hire</span>(dev) {<br>
+<span class="ln">12</span>  <span class="kw">return</span> dev.openToWork<br>
+<span class="ln">13</span>    ? <span class="str">"let's build something"</span><br>
+<span class="ln">14</span>    : <span class="str">"check back soon"</span>;<br>
+<span class="ln">15</span>}<br>
+<br>
+<span class="ln">16</span><span class="fn">hire</span>(<span class="acc">developer</span>); <span class="blink"></span>
+        </div>
+      </div>
+
+      <!-- Vertical ticker -->
+      <div class="ticker">
+        San Diego&nbsp;<span>·</span>&nbsp;Open to Work&nbsp;<span>·</span>&nbsp;Full-Stack&nbsp;<span>·</span>&nbsp;2025
+      </div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="stats-strip">
+      <div class="stat">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Years Building</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Problems Solved</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">SAN</div>
+        <div class="stat-label">San Diego, CA</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="section-tag">Contact</div>
+      <h2 class="contact-heading">Let's <span>Build</span><br>Something.</h2>
+      <p class="contact-sub">
+        Open to full-stack roles in San Diego and remote. Drop me a message and I'll get back to you promptly.
+      </p>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me what you're working on..." required></textarea>
+        </div>
+        <div class="form-footer">
+          <span class="form-note">I typically respond within 24 hours.</span>
+          <button type="submit" class="btn-submit">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            Send Message
+          </button>
+        </div>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        <div class="success-icon">✦</div>
+        <h3>Message Sent</h3>
+        <p>Thanks for reaching out — I'll be in touch soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2025 Michael Flores</span>
+    <span>Built with HTML · CSS · JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
