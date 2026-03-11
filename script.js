@@ -31,7 +31,17 @@
     });
 
     document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      this.style.display = 'none';
-      document.getElementById('formSuccess').style.display = 'block';
+        e.preventDefault();
+      fetch(this.action, {
+        method: 'POST',
+        body: new FormData(this),
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+            this.style.display = 'none';
+            document.getElementById('formSuccess').style.display = 'block';
+        } else {
+            alert('Something went wrong, please try again.');
+        }
+      });
     });
