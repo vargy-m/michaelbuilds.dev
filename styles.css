@@ -12,7 +12,7 @@
       --accent:   #4fffb0;
       --accent2:  #00b4ff;
       --text:     #e8eaf0;
-      --muted:    rgba(232,234,240,0.45);
+      --muted:    rgba(232, 234, 240, 0.826);
     }
 
     html { 
@@ -514,7 +514,7 @@
     .form-note {
       font-family: 'DM Mono', monospace;
       font-size: .68rem;
-      color: rgba(232,234,240,0.2);
+      color: var(--muted);
       letter-spacing: .06em;
     }
 
@@ -568,7 +568,7 @@
     .site-footer span {
       font-family: 'DM Mono', monospace;
       font-size: .68rem;
-      color: rgba(232,234,240,0.2);
+      color: var(--muted);
       letter-spacing: .08em;
     }
 
