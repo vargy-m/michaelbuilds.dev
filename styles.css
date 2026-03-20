@@ -62,6 +62,14 @@
       opacity: 0.7;
     }
 
+    /* No cursor for mobile and tablet */
+
+    @media (hover: none) {
+      .cursor, .cursor-ring {
+        display: none;
+      }
+    }
+
     /* ── Nav ── */
 
 nav {
