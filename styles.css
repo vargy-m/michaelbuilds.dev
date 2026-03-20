@@ -488,9 +488,15 @@ nav {
 
     /* ── Responsive ── */
     @media (max-width: 900px) {
+
+  nav {
+    padding-top: calc(1.2rem + env(safe-area-inset-top));
+  }    
+
   .hero { 
     grid-template-columns: 1fr; 
-    padding: 7rem 1.5rem 16rem;
+    padding-top: calc(9rem + env(safe-area-inset-top));
+    padding: 9rem 1.5rem 16rem;
   }
   .hero-left {
     max-width: 600px;
