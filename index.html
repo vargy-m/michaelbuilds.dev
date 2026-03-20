@@ -20,15 +20,21 @@
   <div class="cursor" id="cursor"></div>
   <div class="cursor-ring" id="ring"></div>
 
+
   <!-- Nav -->
-  <nav>
-    <div class="nav-logo">Michael Builds</div>
-    <ul class="nav-links">
-      <li><a href="https://github.com/vargy-m"><i class="fa-brands fa-github"></i> GitHub</a></li>
-      <li><a href="https://www.youtube.com/@michaelbuildsdev"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<nav>
+  <div class="nav-logo">Michael Builds</div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="https://github.com/vargy-m" onclick="closeMenu()"><i class="fa-brands fa-github"></i> GitHub</a></li>
+    <li><a href="https://www.youtube.com/@michaelbuildsdev" onclick="closeMenu()"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+  </ul>
+</nav>
 
   <!-- Hero -->
   <section class="hero">
@@ -136,7 +142,9 @@
       <div class="section-tag">Contact</div>
       <h2 class="contact-heading">Let's <span>Build</span><br>Something.</h2>
       <p class="contact-sub">
-        Open to full-stack roles in San Diego and remote. Drop me a message and I'll get back to you promptly.
+        Open to full-stack roles in San Diego and remote. <br>
+        Need a custom website built for your growing business? <br>
+        <strong>Drop me a message and I'll get back to you promptly.</strong>
       </p>
 
       <form class="contact-form" id="contactForm" action="https://formspree.io/f/meerabaw" method="POST">
